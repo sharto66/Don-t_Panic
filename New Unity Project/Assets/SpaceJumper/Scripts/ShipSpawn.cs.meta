@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: e67c334f1a160974b87efd5f223194e1
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - ship4: {fileID: 21200000, guid: 47f980125a590cd4a9814fa300593e5e, type: 2}
+  - asteroid: {instanceID: 0}
+  - upArrow: {instanceID: 0}
+  - downArrow: {instanceID: 0}
+  - arrow: {instanceID: 0}
+  executionOrder: 200
+  icon: {instanceID: 0}
+  userData: 

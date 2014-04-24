@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 039120da3fd4c464bb90e914fab57147
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - death: {fileID: 8300000, guid: 617732364455fd845b3e396f2a9ca604, type: 3}
+  - DeadDolphinSprite: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
