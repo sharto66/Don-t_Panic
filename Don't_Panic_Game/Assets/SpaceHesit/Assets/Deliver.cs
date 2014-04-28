@@ -41,7 +41,7 @@ public class Deliver : MonoBehaviour
 
 		if (pick == 3 && Scoreboard.wComplete == true) 
 		{
-			pick = 0;
+			PickMission();
 		}
 	}
 

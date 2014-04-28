@@ -1,9 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\DolphinGame\Music\So Long And Thanks\Scripts\1plyr\PlayerControl.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\SpaceHesit\Assets\EnemySpawn.cs">
     <Files>
-      <File FileName="Assets\SpaceJumper\Scripts\MenuGUI.cs" Line="20" Column="40" />
-      <File FileName="Assets\DolphinGame\Music\So Long And Thanks\Scripts\1plyr\PlayerControl.cs" Line="80" Column="4" />
+      <File FileName="Assets\SpaceHesit\Assets\Deliver.cs" Line="44" Column="18" />
+      <File FileName="Assets\DolphinGame\Music\So Long And Thanks\Scripts\1plyr\PlayerControl.cs" Line="22" Column="2" />
+      <File FileName="Assets\SpaceJumper\Scripts\MenuGUI.cs" Line="1" Column="1" />
+      <File FileName="Assets\SpaceHesit\Assets\EnemySpawn.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
