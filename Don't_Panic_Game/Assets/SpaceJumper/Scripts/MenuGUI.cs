@@ -15,9 +15,9 @@ public class MenuGUI : MonoBehaviour {
 		myStyle.font = myFont;
 		myStyle.fontSize = 60;
 		GUI.color = Color.red;
-		GUI.Label(new Rect(400, 30 ,200, 400), "<color=white>"+ "DON'T PANIC:"+"</color>", myStyle);
+		GUI.Label(new Rect(Screen.width/2-270, 30 ,200, 400), "<color=white>"+ "DON'T PANIC:"+"</color>", myStyle);
 		myStyle.fontSize = 25;
-		GUI.Label(new Rect(410, 80 ,200, 400), "<color=white>"+ "An anthology in suffering"+"</color>", myStyle);
+		GUI.Label(new Rect(Screen.width/2-255, 80 ,200, 400), "<color=white>"+ "An anthology in suffering"+"</color>", myStyle);
 		myStyle.fontSize = 20;
 		GUI.Label (new Rect (Screen.width/2-270, Screen.height-20, 50, 200), "<color=white>A Team BubbleBath production</color>", myStyle);
 		myStyle.fontSize = 10;
@@ -26,9 +26,14 @@ public class MenuGUI : MonoBehaviour {
 			Application.LoadLevel("MainScene");
 		}
 		GUI.color = Color.cyan;
-		if(GUI.Button (new Rect (Screen.width / 2-105, Screen.height / 2, 240, 80), "So Long And Thanks"))
+		if(GUI.Button (new Rect (Screen.width / 2+45, Screen.height / 2, 240, 80), "So Long And Thanks"))
 		{
 			Application.LoadLevel("DolphinLevel");
+		}
+		GUI.color = Color.cyan;
+		if(GUI.Button (new Rect (Screen.width / 2-240, Screen.height / 2, 240, 80), "Dolphin Duel"))
+		{
+			Application.LoadLevel("DolphinLevelMultiplayer");
 		}
 		GUI.color = Color.magenta;
 		if(GUI.Button (new Rect (Screen.width / 2-105, Screen.height / 2+100, 240, 80), "Space Heist 4: Tax Deductable"))

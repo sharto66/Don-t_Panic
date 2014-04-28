@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}</ProjectGuid>
+	<ProjectGuid>{4855F1B1-AB11-6F77-13B2-1CDF6430AF5D}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,13 +46,19 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\DolphinGame\Music\Cormacs Scripts\Asteroids.cs" />
-     <Compile Include="Assets\DolphinGame\Music\Cormacs Scripts\Menu2.cs" />
-     <Compile Include="Assets\DolphinGame\Music\Cormacs Scripts\Pause.cs" />
-     <Compile Include="Assets\DolphinGame\Music\Cormacs Scripts\PlayerControl.cs" />
-     <Compile Include="Assets\DolphinGame\Music\Cormacs Scripts\PowerUpSpawner.cs" />
-     <Compile Include="Assets\DolphinGame\Music\Cormacs Scripts\Score.cs" />
-     <Compile Include="Assets\DolphinGame\Music\Cormacs Scripts\Spawner.cs" />
+     <Compile Include="Assets\DolphinGame\Music\So Long And Thanks\Scripts\1plyr\Asteroids.cs" />
+     <Compile Include="Assets\DolphinGame\Music\So Long And Thanks\Scripts\1plyr\Menu.cs" />
+     <Compile Include="Assets\DolphinGame\Music\So Long And Thanks\Scripts\1plyr\Pause.cs" />
+     <Compile Include="Assets\DolphinGame\Music\So Long And Thanks\Scripts\1plyr\PlayerControl.cs" />
+     <Compile Include="Assets\DolphinGame\Music\So Long And Thanks\Scripts\1plyr\PowerUpSpawner.cs" />
+     <Compile Include="Assets\DolphinGame\Music\So Long And Thanks\Scripts\1plyr\Score.cs" />
+     <Compile Include="Assets\DolphinGame\Music\So Long And Thanks\Scripts\1plyr\Spawner.cs" />
+     <Compile Include="Assets\DolphinGame\Music\So Long And Thanks\Scripts\2plyr\MPAsteroids.cs" />
+     <Compile Include="Assets\DolphinGame\Music\So Long And Thanks\Scripts\2plyr\MPBoundary.cs" />
+     <Compile Include="Assets\DolphinGame\Music\So Long And Thanks\Scripts\2plyr\MPMenu.cs" />
+     <Compile Include="Assets\DolphinGame\Music\So Long And Thanks\Scripts\2plyr\MPScore.cs" />
+     <Compile Include="Assets\DolphinGame\Music\So Long And Thanks\Scripts\2plyr\Player1Control.cs" />
+     <Compile Include="Assets\DolphinGame\Music\So Long And Thanks\Scripts\2plyr\Player2control.cs" />
      <Compile Include="Assets\SpaceHesit\Assets\BadBehaviour.cs" />
      <Compile Include="Assets\SpaceHesit\Assets\BehaviourScripts\Behaviour.cs" />
      <Compile Include="Assets\SpaceHesit\Assets\BehaviourScripts\MenuOther.cs" />
@@ -68,7 +74,7 @@
      <Compile Include="Assets\SpaceHesit\Assets\Credits.cs" />
      <Compile Include="Assets\SpaceHesit\Assets\Deliver.cs" />
      <Compile Include="Assets\SpaceHesit\Assets\EnemySpawn.cs" />
-     <Compile Include="Assets\SpaceHesit\Assets\Menu.cs" />
+     <Compile Include="Assets\SpaceHesit\Assets\MenuS.cs" />
      <Compile Include="Assets\SpaceHesit\Assets\Movement.cs" />
      <Compile Include="Assets\SpaceHesit\Assets\Scoreboard.cs" />
      <Compile Include="Assets\SpaceJumper\Scripts\Asteroid.cs" />

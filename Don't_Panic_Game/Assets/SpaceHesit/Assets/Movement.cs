@@ -36,7 +36,7 @@ public class Movement : MonoBehaviour {
 
 	}
 
-	void OnGUI()
+	/*void OnGUI()
 	{
 		if(GUI.RepeatButton(new Rect(50, Screen.height-100, 90, 90), "Go"))
 		{
@@ -50,8 +50,7 @@ public class Movement : MonoBehaviour {
 		{
 			transform.Rotate(0.0f, 0.0f, rotate);
 		}
-
-	}
+	}*/
 
 	void OnTriggerEnter2D(Collider2D collinfo)
 	{
